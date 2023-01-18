@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../Orton_Insurance_Github/ortoninsurance"
+		},
+		{
+			"path": "../../MyWebSite"
+		},
+		{
+			"path": "../../Webpage Design"
+		},
+		{
+			"path": "../../Transparent Form"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5504,
+		"liveServer.settings.multiRootWorkspaceName": "WDD - 130"
+	}
+}
