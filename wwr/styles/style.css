@@ -1,5 +1,6 @@
 nav {
     text-align: left;
+    
 }
 
 #hero-msg h1{
@@ -23,14 +24,14 @@ main section{
 }
 #background{
     height: 725px;
-    background-color: rgba(241, 217, 201, 0.7);
+    background-color: #ccff33;
 }
 
 body{
     background-color: #fcfbfb;
 }
 header{
-    background-color: rgba(20,30,13, .7);
+    background-color: #004b23;
 }
 
 nav a:hover{
@@ -53,11 +54,11 @@ nav a:hover{
     text-align: center;
 }
 .msg h2{
-    background-color: rgba(20,30,13, .7);
+    background-color: #9ef01a;
 }
 
 .msg p{
-    background-color: rgba(20,30,13, .7);
+    background-color: #9ef01a;
 }
 .book{
     background-color: rgba(20,30,13, .7);
