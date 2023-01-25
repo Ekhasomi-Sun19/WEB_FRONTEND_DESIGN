@@ -1,0 +1,49 @@
+body{
+    background-color: pink;
+    margin: 0 auto;
+}
+
+#section{
+    margin: auto;
+    width: 360px;
+    border: 2433%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    
+}
+
+h1:hover{
+    color: black
+}
+.mainhead{
+    color: white;
+    font-size: 12px;
+}
+
+p{
+    color: white;
+    font-family: Arial;
+}
+
+p{
+    text-align: center;
+}
+.mainbody{
+    color: white;
+    font-size: 140%;
+}
+
+footer.p1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Russel{
+    text-align: center;
+}
+
+
+footer{color:black;}
