@@ -1,0 +1,28 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background: #5f5e5e;
+}
+
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 0%;
+    padding: 0 auto;
+    margin: 73px;
+}    
+
+.Grid img{
+    width: 100%;
+    border-radius: 50%;
+    border: 15px solid rgb(54, 54, 54)
+}
+
