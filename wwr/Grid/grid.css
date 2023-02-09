@@ -1,0 +1,22 @@
+body{
+    background-color: orange;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom{
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.bottom img{
+    width: 100%;
+}
+
+.top{
+    grid-row: 1;
+    grid-column: 1;
+}
