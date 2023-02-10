@@ -4,6 +4,9 @@
 }
 
 body{
+    background-color: #fcfbfb;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 22px;
     margin: 0px;
     padding: 0px;
 }
@@ -19,6 +22,11 @@ nav a{
 
 h1{
     text-align: center;
+    color: rgb(7, 240, 162);
+}
+
+h2{
+    margin: 0;
 }
 
 #hero-msg{
@@ -56,15 +64,52 @@ nav a:hover {
     background-color:  greenyellow;
 }
 
+#logo_link{
+    padding-top: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+
 .book{
     background-color:  rgb(27, 233, 164);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join{
     background-color: greenyellow;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+
+.msg h2{
+    font-size: 30px;
+    color: white;
+}
+.home-title{
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 .book:hover{
     background-color: rgb(55, 181, 240);
@@ -77,10 +122,14 @@ nav a:hover {
 }
 .msg{
     background-color: rgb(27, 233, 164);
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color: rgb(175, 174, 174);
     text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 a{
@@ -93,6 +142,7 @@ a{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 nav a{
@@ -109,4 +159,16 @@ footer p a:hover{
 
 .mountains{
     text-align: right;
+}
+
+footer .social img {
+    padding-top: 15px;
+}  
+
+.card-img{
+    border: 10px solid rgb(18, 231, 100);
+}
+
+main section img {
+    box-sizing: border-box;
 }
