@@ -1,0 +1,112 @@
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav a{
+    text-align: center;
+
+}
+
+#hero-msg{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+#hero-msg{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+.button-box{
+    text-align: center;
+    
+}
+
+#hero-img{
+    width: 100%;
+}
+
+section{
+    text-align: center;
+}
+
+#background{
+    height: 725px;
+}
+
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgb(9, 75, 9);
+}
+nav a:hover {
+    background-color:  greenyellow;
+}
+
+.book{
+    background-color:  rgb(27, 233, 164);
+    text-decoration: none;
+}
+
+.join{
+    background-color: greenyellow;
+    text-decoration: none;
+
+}
+.book:hover{
+    background-color: rgb(55, 181, 240);
+}
+.join:hover{
+    background-color: rgb(253, 248, 253);
+}
+#background{
+    background-color: rgb(27, 233, 164);
+}
+.msg{
+    background-color: rgb(27, 233, 164);
+}
+footer{
+    background-color: rgb(175, 174, 174);
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    width: 80px;
+}
+
+.icon{
+    width: 80px;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.mountains{
+    text-align: right;
+}
