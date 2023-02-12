@@ -157,8 +157,10 @@ footer p a:hover{
     text-decoration: underline;
 }
 
-.mountains{
+.mountains .msg{
     text-align: right;
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 
 footer .social img {
