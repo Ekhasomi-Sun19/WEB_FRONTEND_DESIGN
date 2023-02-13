@@ -9,6 +9,7 @@
     <style>
         body{
             background-color: aqua;
+            
         }
 
         h1{
@@ -38,22 +39,41 @@
         section{
             margin: 50px;
             background-color: lightgray;
-            border: 2px black;
-            border-radius: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+
         }
 
-        section div{
+        section{
             grid-template-columns: 1fr 400px;
             display: grid;
 
+        }
+
+        section .heading{
+            margin: 0;
+            padding: 0;
+        }
+
+        section .heading .P1{
+            color: orange;
+            font-size: 40px;
+            
         }
 
     </style>
 </head>
 <body>
     <section>
-        <div>
-            <p>this is a section paragraph, keep off. No trespassing, all tresspassers will face the wrath of the law</p>
+        <div class="heading">
+            <div class="P1">
+                <p>Hello World</p>
+            </div>
+            <div class="P3">
+                <p>this is a section paragraph, keep off. No trespassing, all tresspassers will face the wrath of the law, just kidding :) Did I scare you? </p>
+            </div>
+        </div>
+        <div class="image-column">
             <img src="marek-piwnicki-s_fgw1df-_I-unsplash.jpg">
         </div>
     </section>
