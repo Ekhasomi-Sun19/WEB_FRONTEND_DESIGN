@@ -194,6 +194,11 @@ footer .social img {
     transform: scale(1.1);
 }
 
+main .home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 .card-img, .mountains{
     width: 100%;
 }
@@ -304,4 +309,12 @@ div .join{
 .join:hover{
     background-color: rgb(253, 248, 253);
 }
+
+/* .home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+/* <main class="home-grid"> */
 
