@@ -11,11 +11,6 @@ body{
     padding: 0px;
 }
 
-nav a{
-    text-align: center;
-
-}
-
 #hero-msg{
     /* text-align: center; */
     grid-column: 2/3;
@@ -159,10 +154,6 @@ a{
 .icon{
     width: 80px;
     padding-top: 10px;
-}
-
-nav a{
-    text-decoration: none;
 }
 
 footer p{
