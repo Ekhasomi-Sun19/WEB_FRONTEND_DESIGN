@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+.Rounded-Box{
+    width: 18%;
+    height: 75%;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    overflow: hidden;
+}
+
+.Rounded-Box img{
+    width: 100%;
+    position: absolute;
+}
+
+.para{
+    font-size: 0.9em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 184px;
+    color: rgb(136, 135, 135);
+}
+
+.para h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    
+    
+}
+
+.para h4{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(23, 162, 241) ;
+}
+
+.Grid{
+    background-color: rgb(53, 96, 136);
+    display: grid;
+    grid-template-columns: 82px 82px 82px 120px;
+    left: 50%;
+    /* width: 50px; */
+    height: 70px;
+    top: 95%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+
+}
+
+.Grid, .Col-1, p, p{
+    text-align: center;
+}
+
+.Col-1{
+    font-size: 12px;
+    position: absolute;
+    right: 67%;
+    top: 15%;
+}
+
+.Col-2{
+    font-size: 12px;
+    position: absolute;
+    right: 45%;
+    top: 15%;
+}
+
+.Col-3{
+    font-size: 12px;
+    position: absolute;
+    right: 20%;
+    top: 15%;
+}
+
+/* @media screen and (max-width: 600px) {
+    .para{
+        font-size: 0.1em;
+    }
+    .Col-1{
+        font-size: 12px;
+        position: absolute;
+        right: 80%;
+        top: 15%;
+    }
+
+    .Col-2{
+        font-size: 12px;
+        position: absolute;
+        right: 45%;
+        top: 15%;
+    }
+
+    .Col-3{
+        font-size: 89px;
+        position: absolute;
+        right: 30%;
+        top: 15%;
+    }
+    
+} */
