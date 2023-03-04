@@ -35,7 +35,7 @@ body {
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
+  /* text-align: center; */
 }
 img {
   display: block;
@@ -167,4 +167,74 @@ nav a:hover {
 .Image1 img{
   width: 1000%;
   height: 1000%;
+}
+
+.P1 p{
+  color: #004b23;
+  text-align: left;
+}
+
+.Grid{
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Grid-1 img, .Grid-2 img, .Grid-3 img{
+  width: 100%;
+  height: 90%;
+  border-radius: 50%;
+}
+
+.Grid-1 p{
+  text-align: center;
+}
+
+.Grid-2 p{
+  text-align: center;
+}
+
+.Grid-3 p{
+  text-align: center;
+}
+
+section{
+  background-color: gray;
+}
+
+h3{
+  text-align: center;
+}
+
+.Text{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.Grid-One{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  padding: 0;
+}
+
+.Grid_One img, .Grid_Two img{
+  width: 100%;
+  height: 80%;
+  /* position: absolute; */
+}
+
+.Grid_One p{
+  text-align: center;
+  color: white;
+}
+
+.Grid_Two p{
+  text-align: center;
+  color: white;
+}
+
+.Sec{
+  background-color: #004b23;
 }
