@@ -39,10 +39,6 @@ h1{
     color: rgb(7, 240, 162);
 }
 
-h2{
-    margin: 0;
-}
-
 #hero-msg{
     text-align: center;
 }
@@ -301,11 +297,105 @@ div .join{
     background-color: rgb(253, 248, 253);
 }
 
-/* .home-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-items: center;
+.Design p{
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 120%;
+    text-transform: uppercase;
 }
 
-/* <main class="home-grid"> */
+.Design{
+    background-color: grey;
+}
 
+h3{
+    color: green;
+}
+
+
+.People{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+
+.image_Sun img{
+    width: 90%;
+    height: 67%;
+    border-radius: 50%;
+    border: solid green;
+}
+
+.image_Sun p{
+    position: absolute;
+    right: 79%;
+    
+}
+
+.image_Ell img{
+    width: 90%;
+    height: 67%;
+    border-radius: 50%;
+    border: solid green;
+}
+
+.image_Ell p{
+    position: absolute;
+    right: 56.5%;
+}
+
+.image_Sun:hover{
+    opacity: .6;
+}
+
+.image_Ell:hover{
+    opacity: .6;
+}
+
+.Vision{
+    background-color: rgb(60, 136, 60);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 67%;
+    border-radius: 7%;
+}
+
+.Vision:hover{
+    opacity: .6;
+}
+
+.Vision p{
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    right: 31%;
+    color: white;
+    
+}
+
+.Mission{
+    background-color: rgb(60, 136, 60);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 67%;
+    border-radius: 7%;
+}
+
+.Mission p{
+    font-size: 12px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    right: 9%;
+    color: white;
+    
+}
+
+.Mission h5, .Vision h5{
+    text-align: center;
+    color: white;
+}
