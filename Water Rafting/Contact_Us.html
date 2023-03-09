@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a id="logo_link" href="index.html" target="_blank">
+            <img class="logo" src="logo1.png" alt="Dry Oar Logo">
+        </a>
+        <nav>
+            <a href="index.html" target="_blank">Home</a>
+            <a href="subpage.html">About Us</a>
+            <a href="site-plan-rafting.html" target="_blank">Site Plan</a>
+            <a href="Contact_Us.html">Contact Us</a>
+        </nav>
+    </header>  
+    <main>
+        <div class="container">
+            <div class="box">
+                <h3>Let's Hear From You</h3>
+                <div class="name">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+                <div class="email">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Email" id="email">
+                </div>
+                <div class="message-box">
+                    <textarea id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+                </div>
+                <div class="button">
+                    <button id="send" onclick="message()">Send</button>
+                </div>
+                <div class="message">
+                    <div class="success" id="success">Your Message successfully
+                    sent!</div>
+                    <div class="danger" id="danger">Fields Can't be Empty</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Dry Oar &copy; 20XX - Your First and Last Name Here</p>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p><a href="Contact_Us.html" target="_blank">Contact Us</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer> 
+    
+    <script src="Contact.js"></script>
+</body>
+</html>
