@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-one{
+    padding-top: 70px;
+    padding-left: 70px;
+}
+
+.Image{
+    position: absolute;
+    left: 50%;
+
+}
+
+.submit{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+
+.form-one form .submit{
+    background-color: rgb(38, 174, 216);
+    height: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-one form .text{
+    height: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-one form .text1{
+    height: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.form-one h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(38, 174, 216);
+}
+
+.form-one p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(90, 90, 90);
+}
+
