@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .background-Image{
     background-image: url('./Afi.jpg');
     background-size: cover;
@@ -178,10 +179,21 @@
     left: 50%;
     opacity: 0.6;
     border-radius: 2%;
-    padding-right:-10%;
-    padding-bottom: 5;
+    padding-bottom: 5%;
     
 }
+
+input[type="text"]{
+    width: 100%;
+    padding-left: 0.8%;
+}
+
+.Contact-Us form [type="Submit"]{
+    width: 50%;
+    padding-top: 2%;
+}
+
+
 
 .Contact-Us h1{
     color: white;
@@ -224,7 +236,7 @@ footer{
     padding-bottom: 1%;
 }
 
-
+/* Second page start here */
 .Images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
