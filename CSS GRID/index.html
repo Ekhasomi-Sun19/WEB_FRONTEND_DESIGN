@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+
+        section{
+            width: 300px;
+            /* padding: 10px; */
+        }
+
+        .block1{
+            border: solid black;
+            width: 20%;
+        }
+
+        .block2{
+            border: solid black;
+            width: 20%;
+            position: relative;
+            right: -10%;
+            
+        }
+
+        .block3{
+            border: solid black;
+            width: 20%;
+            position: relative;
+            right: -20%;
+        }
+
+        .block4{
+            border: solid black;
+            width: 26%;
+            position: relative;
+            right: -7%;
+        }
+        
+        p:nth-of-type(2){
+            text-align: center;
+        }
+
+        p:nth-of-type(3){
+            text-align: right;
+        }
+
+        .block4 p:nth-of-type(1){
+            text-align: right;
+        }
+
+        .block4 p:nth-of-type(3){
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <section class="block1">
+            <p>...The cataract strong</p>
+            <p>Then plunges along,</p>
+            <p>Striking and raging</p>
+        </section>
+        <section class="block2">
+            <p>As if a war waging its caverns and rocks among;</p>
+            <p>Rising and leaping, Sinking and creeping,</p>
+            <p>Swelling and sweeping, Showering and springing,</p>
+        </section>
+        <section class="block3">
+            <p>Flying and flinging, Writing and ringing,</p>
+            <p>Eddying and Whisking, Spouting and Frisking,</p>
+            <p>Turning and twisting,</p>
+        </section>
+        <section class="block4">
+            <p>Around and around With endless rebound:</p>
+            <p>Smiting and fighting, A sight to delight in;</p>
+            <p>Confounding, astounding, Dizzying and deafening</p>
+            <p>the ear with it's sound.</p>
+        </section>
+    </div>
+
+    
+</body>
+</html>

@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 .background-Image{
     background-image: url('./Afi.jpg');
     background-size: cover;
@@ -55,20 +56,18 @@
 
 
 .header-1 h1{
-    color: rgb(4, 154, 192);
+    color: #007200;
 }
 
 .header-1:nth-child(2){
     grid-column-start: 4;
     grid-column-end: 7;
-    /* grid-row-start: 1;
-    grid-row-end: 2; */
     position: relative;
     top: 70%;
 }
 
 .header-2 p{
-    color: orange;
+    color: #9ef01a;
 }
 .header-2:nth-child(3){
     grid-column-start: 4;
@@ -79,8 +78,11 @@
 }
 
 .home a, .business a, .recipe a, .login a{
-    color: wheat;
+    color: #9ef01a;
     text-decoration: none;
+}
+.recipe:hover{
+    background-color: black;
 }
 .home:nth-child(4){
     grid-column-start: 9;
@@ -133,51 +135,113 @@
 
 .Body-Image-One img{
     border-radius: 50%;
-    width: 40%;
+    width: 50%;
     height: 80%;
-    border: solid white;
+    border: solid #ccff33;
     position: relative;
-    top: 110%;
+    top: 10%;
     left: 45%
     
 }
 
+.Body-Image-Two p{
+    position: absolute;
+    left: 31.3%;
+    bottom: 26%;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Body-Image-One p{
+    position: absolute;
+    left: 18.3%;
+    bottom: 26%;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .Body-Image-Two img{
     border-radius: 50%;
-    width: 40%;
+    width: 50%;
     height: 80%;
-    border: solid white;
+    border: solid #ccff33;
     position: relative;
-    top: 110%;
+    top: 10%;
 }
 
 .Contact-Us{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    position: relative;
-    top: 90%;
-}
-
-footer{
-    background-color: rgb(137, 137, 139);
-    height: 32.6%;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: black;
+    padding: 10%;
+    grid-row: 1/2;
+    left: 50%;
+    opacity: 0.6;
+    border-radius: 2%;
+    padding-bottom: 5%;
     
 }
 
+input[type="text"]{
+    width: 100%;
+    padding-left: 0.8%;
+}
+
+.Contact-Us form [type="Submit"]{
+    width: 50%;
+    padding-top: 2%;
+}
 
 
 
+.Contact-Us h1{
+    color: white;
+}
 
+footer{
+    background-color: rgb(29, 28, 28);
+    padding-left: 2%;
+    padding-top: 0.5%;
+    
+}
 
+.Pan1{
+    padding-left: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 2%;
+    background-color:#004b23;
+    opacity: 0.8;
+    border-bottom: solid #ccff33;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+.Submit{
+    cursor: pointer;
+    background-color: #9ef01a;
+    width: 5%;
+    border: none;
+    font-size: 20px;
+    color: #004b23;
+}
 
-/* Page Two Start here */
+.Submit:hover{
+    color: white;
+}
 
+.Pan1 p{
+    padding-bottom: 1%;
+}
+
+/* Second page start here */
 .Images{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 2%;
-    padding-left: 2%;
+    padding-left: 2%; 
 }
 
 .image-1 img, .image-2 img, .image-3 img{
