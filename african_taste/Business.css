@@ -1,6 +1,11 @@
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: black;
 }
 .background-Image{
     background-image: url('./Afi.jpg');
@@ -33,9 +38,10 @@
     grid-template-rows: 1fr 1fr;
     margin: 0;
     padding-top: 10px;
-    background-color: rgb(12, 12, 12);
-    opacity: 0.7;
+    background-color: rgb(2, 41, 8);
+    box-shadow: 0 2px 4px white;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .logo{
@@ -121,75 +127,14 @@
     position: relative;
     top: 80%;
 }
-
-.Body-Grid{
+.Body123{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding-top: 2%;
-    column-gap: 1px;
-    padding-left: 5%;
-}
-
-.Body-Image-One img{
-    border-radius: 50%;
-    width: 40%;
-    height: 80%;
-    border: solid white;
-    position: relative;
-    top: 110%;
-    left: 45%
-    
-}
-
-.Body-Image-Two img{
-    border-radius: 50%;
-    width: 40%;
-    height: 80%;
-    border: solid white;
-    position: relative;
-    top: 110%;
-}
-
-.Contact-Us{
-    grid-column-start: 4;
-    grid-column-end: 5;
-    position: relative;
-    top: 90%;
-}
-
-footer{
-    background-color: rgb(137, 137, 139);
-    height: 32.6%;
-    
-}
-
-
-
-
-
-
-
-
-/* Page Two Start here */
-
-.Images{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     padding-top: 2%;
     padding-left: 2%;
 }
 
-.image-1 img, .image-2 img, .image-3 img{
+.Body-Image-1 img, .Body-Image-2 img{
     width: 70%;
     height: 80%;
 }
-
-.Paragraph{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-top: 2%;
-    padding-left: 2%;
-}
-
-
