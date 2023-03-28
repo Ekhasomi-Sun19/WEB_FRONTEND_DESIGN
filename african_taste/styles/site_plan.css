@@ -9,7 +9,7 @@ Fonts are separated by a & */
   --primary-color: #004b23   ;
   --secondary-color: #007200 ;
   --accent1-color: #9ef01a;
-  --accent2-color: #ccff33;
+  --accent2-color: rgb(247, 243, 238);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Helvetica";
