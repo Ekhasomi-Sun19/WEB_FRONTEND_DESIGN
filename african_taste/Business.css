@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: white;
 }
 .background-Image{
     background-image: url('./Afi.jpg');
@@ -36,11 +36,11 @@ body{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     margin: 0;
-    padding-top: 10px;
+    padding-top: 5px;
     background-color: rgb(2, 41, 8);
     box-shadow: 0 2px 4px white;
+    border-bottom: 2px solid white;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 .logo{
@@ -60,14 +60,12 @@ body{
 
 
 .header-1 h1{
-    color: rgb(4, 154, 192);
+    color: #9ef01a;
 }
 
 .header-1:nth-child(2){
     grid-column-start: 4;
     grid-column-end: 7;
-    /* grid-row-start: 1;
-    grid-row-end: 2; */
     position: relative;
     top: 70%;
 }
@@ -122,20 +120,160 @@ body{
     position: relative;
     top: 80%;
 }
-.Body123{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-top: 2%;
-    padding-left: 2%;
-}
 
-.Body-Image-1 img, .Body-Image-2 img{
-    width: 70%;
-    height: 80%;
-}
 .banner img{
     background-size: cover;
     background-position: center;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
 }
+
+section{
+    height: 5%;
+    width: 100%;
+    background-color: white;
+    color: #9ef01a;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 4px 4px rgb(2, 41, 8);
+}
+section .content h3{
+    color: rgb(2, 41, 8);
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+.Body123{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+hr{
+    padding-bottom: 10%;
+}
+
+.Body-Image-1{
+    left: 10%;
+}
+
+.Body-Image-2{
+    left: -30%;
+}
+
+.Body-Image-3{
+    left: -70%;
+}
+
+.Body-Image-4 h3, .Body-Image-4 p{
+    padding-top: 5%;
+}
+
+.Body-Image-4 h3{
+    background-color: rgb(2, 41, 8);
+    color: #9ef01a;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Body-Image-4 p{
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 4%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Body-Image-1 img, .Body-Image-2 img, .Body-Image-3 img{
+    width: 70%;
+    height: 80%;
+}
+
+.Body123 .Body-Image-1 img,
+.Body123 .Body-Image-2 img,
+.Body123 .Body-Image-3 img{
+    border-radius: 7%;
+    height: 150%;
+    width: 50%;
+    box-shadow: 5px 0 8px wheat;
+}
+
+.Body-Image-1, .Body-Image-2, .Body-Image-3{
+    position: relative;
+}
+
+.overlay1, .overlay2, .overlay3{
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    background-color: rgb(247, 243, 238);
+    overflow: hidden;
+    height: 150%;
+    width: 50%;
+    transform: scale(0);
+    transition: .3s ease;
+    opacity: 0.9;
+    border-radius: 7%;
+}
+
+.Body-Image-1:hover .overlay1, 
+.Body-Image-2:hover .overlay2, 
+.Body-Image-3:hover .overlay3{
+    transform: scale(1);
+}
+
+.text, .text1, .text2, .text3{
+    color: rgb(2, 41, 8);
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .image-one, .image-two, .image-three{
+    width: 100%;
+    height: auto;
+  }
+
+  .bottom-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 2%;
+    padding-left: 15%;
+    padding-bottom: 2%;
+    background-color: rgb(247, 243, 238);
+  }
+
+  .bottom-1 h3, .bottom-2 h3, .bottom-3 h3{
+    background-color: rgb(2, 41, 8);
+    color: #9ef01a;
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+}
+
+.bottom-1 p, .bottom-2 p, .bottom-3 p{
+    padding-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+  footer{
+    background-color: rgb(2, 41, 8);
+    color: #9ef01a;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
