@@ -48,7 +48,7 @@ body{
     text-align: center;
     align-items: center;
     padding-left: 3%;
-    padding-top: 4%;
+    padding-top: 2%;
 }
 input[type="text"], input[type="email"]{
     width: 80%;
@@ -99,4 +99,19 @@ label input[type="checkbox"], input[type="myCheckbox"]{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
+}
+
+.right h1{
+    color: #666463;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    top: -15px;
+    left: 200px;
+}
+.right h1:hover{
+    color: red;
+    cursor: pointer;
+
 }
