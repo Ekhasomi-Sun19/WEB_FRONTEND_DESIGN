@@ -78,25 +78,25 @@ label input[type="checkbox"], input[type="myCheckbox"]{
     font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .right h2{
     color: #666463;
-    font-size: 50px;
+    font-size: 38px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 }
 
 .right p{
     color: #666463;
-    font-size: 20px;
+    font-size: 15.5px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 }
 
 .right label{
     color: #666463;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
 }
@@ -108,7 +108,7 @@ label input[type="checkbox"], input[type="myCheckbox"]{
     margin-bottom: 10px;
     position: relative;
     top: -15px;
-    left: 200px;
+    left: 160px;
 }
 .right h1:hover{
     color: red;
