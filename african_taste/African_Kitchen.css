@@ -179,7 +179,7 @@
     left: 50%;
     opacity: 0.6;
     border-radius: 2%;
-    padding-bottom: 5%;   
+    padding-bottom: 5%;  
 }
 
 input[type="text"]{
@@ -190,6 +190,13 @@ input[type="text"]{
 .Contact-Us form [type="Submit"]{
     width: 50%;
     padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.Contact-Us form [type="Submit"]:hover{
+    background-color: wheat;
+    color: #034e16;
+    cursor: pointer;
 }
 
 
