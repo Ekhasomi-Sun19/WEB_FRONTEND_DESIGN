@@ -81,9 +81,7 @@
     color: #9ef01a;
     text-decoration: none;
 }
-.recipe:hover{
-    background-color: black;
-}
+
 .home:nth-child(4){
     grid-column-start: 9;
     grid-column-end: 10;
@@ -110,6 +108,11 @@
     grid-row-end: 2;
     position: relative;
     top: 80%; 
+}
+
+.home a:hover, .business a:hover, .recipe a:hover, .login a:hover{
+    color: rgb(247, 243, 238);
+    text-decoration: none;
 }
 
 .login:nth-child(7){
@@ -252,6 +255,22 @@ footer{
     padding-top: 1%;
     padding-bottom: 1%;
 }
+
+footer p{
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;;
+    text-decoration: none;
+  }
+
+  footer p a{
+    color: rgb(247, 243, 238);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+footer p a:hover{
+        color: #9ef01a;
+    }
 
 
 
