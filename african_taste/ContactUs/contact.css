@@ -1,8 +1,9 @@
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 10%;
 }
 
 .container{
@@ -12,24 +13,105 @@
     padding-left: 25px;
     padding-right: 25px;
     margin-top: 10%;
-    background-color: rgb(39, 38, 38);
+    background-color: rgb(58, 57, 57);
     width: 40%;
 }
 
 .contact-box{
     height: 60vh;
-    background-color: wheat;
+    background-color: rgb(245, 241, 232);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    width: 120%;
+    width: 130%;
+    height: 95%;
+    border-radius: 2%;
+    top: 2.5%;
+    left: -26%;
 }
 
 .container .Image img{
-    width:90%;
-    height: 50%;
-    /* object-fit: cover; */
+    width:80%;
+    height: 95%;
+    position: relative;
+    left: -10%;
+    top: 2.5%;
+    left: -3.5%;
+    z-index: 10;
+
+}
+
+.container .right{
+    text-align: center;
+    align-items: center;
+    padding-left: 3%;
+    padding-top: 2%;
+}
+input[type="text"], input[type="email"]{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ece9e9;
+    border-radius: 5px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+}
+
+label input[type="checkbox"], input[type="myCheckbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 10px 0;
+}
+
+.right .btn{
+    width: 50%;
+    padding: 20px;
+    border: none;
+    background-color: #f0814d;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.right h2{
+    color: #666463;
+    font-size: 38px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.right p{
+    color: #666463;
+    font-size: 15.5px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.right label{
+    color: #666463;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.right h1{
+    color: #666463;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+    position: relative;
+    top: -15px;
+    left: 160px;
+}
+.right h1:hover{
+    color: red;
+    cursor: pointer;
+
 }

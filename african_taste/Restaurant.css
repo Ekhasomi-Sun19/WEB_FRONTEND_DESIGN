@@ -1,23 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
-    background-color: white;
-}
 .background-Image{
     background-image: url('./Afi.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
 }
 
 .image-overlay{
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     background-color: rgba(2, 37, 14, 0.5);
+
 }
 .image-overlay:hover{ 
     opacity: 0.9;
@@ -37,12 +35,10 @@ body{
     margin: 0;
     position: fixed;
     z-index: 10;
-    padding-top: 5px;
+    padding-top: 1px;
     background-color: rgb(2, 41, 8);
-    box-shadow: 0 2px 4px white;
-    border-bottom: 2px solid white;
     font-family: Arial, Helvetica, sans-serif;
-    opacity: 0.8;
+    box-shadow: 5px 0 5px 10px rgb(247, 216, 179);
 }
 
 .logo{
@@ -62,7 +58,7 @@ body{
 
 
 .header-1 h1{
-    color: #9ef01a;
+    color: #007200;
 }
 
 .header-1:nth-child(2){
@@ -73,7 +69,7 @@ body{
 }
 
 .header-2 p{
-    color: orange;
+    color: #9ef01a;
 }
 .header-2:nth-child(3){
     grid-column-start: 4;
@@ -84,7 +80,7 @@ body{
 }
 
 .home a, .business a, .recipe a, .login a{
-    color: wheat;
+    color: #9ef01a;
     text-decoration: none;
 }
 
@@ -93,13 +89,18 @@ body{
     text-decoration: none;
 }
 
+.Body123 .youtube2 a:hover{
+    background-color: rgb(2, 41, 8);
+}
+
 .home:nth-child(4){
     grid-column-start: 9;
     grid-column-end: 10;
     grid-row-start: 1;
     grid-row-end: 2;
     position: relative;
-    top: 80%;  
+    top: 80%;
+    
 }
 
 .business:nth-child(5){
@@ -117,7 +118,7 @@ body{
     grid-row-start: 1;
     grid-row-end: 2;
     position: relative;
-    top: 80%;  
+    top: 80%; 
 }
 
 .login:nth-child(7){
@@ -129,37 +130,15 @@ body{
     top: 80%;
 }
 
-.banner img{
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-}
-
-.content{
-    height: 5%;
-    width: 100%;
-    background-color: white;
-    color: #9ef01a;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0px 4px 4px rgb(2, 41, 8);
-}
-.content h3{
-    color: rgb(2, 41, 8);
-    font-size: 30px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    text-align: center;
-}
-
 .Body123{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding-top: 2%;
     padding-left: 2%;
+    /* padding-bottom: 5%; */
 }
 hr{
-    padding-bottom: 10%;
+    padding-bottom: 15%;
 }
 
 .Body-Image-1{
@@ -176,6 +155,82 @@ hr{
 
 .Body-Image-4 h3, .Body-Image-4 p{
     padding-top: 5%;
+}
+.Body-Image-1 .youtube1, .Body-Image-2 .youtube2, .Body-Image-3 .youtube3{
+    padding-top: 3%;
+}
+
+.Cook{
+    background-color: rgb(247, 243, 238);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Cook p{
+    color: rgb(2, 41, 8);
+}
+
+.Body123 .youtube1 a{
+    left: 1%;
+    color: rgb(247, 243, 238);
+    position: absolute;
+    background-color: rgba(2, 37, 14, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 48%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Body123 .youtube2 a{
+    left: 1%;
+    color: rgb(247, 243, 238);
+    position: absolute;
+    background-color: rgba(2, 37, 14, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 48%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Body123 .youtube1 a:hover{
+    background-color: rgb(2, 41, 8);
+}
+
+.Body123 .youtube2 a:hover{
+    background-color: rgb(2, 41, 8);
+}
+
+.Body123 .youtube3 a:hover{
+    background-color: rgb(2, 41, 8);
+}
+
+
+
+
+.Body123 .youtube3 a{
+    left: 1%;
+    color: rgb(247, 243, 238);
+    position: absolute;
+    background-color: rgba(2, 37, 14, 0.5);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 48%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .Body-Image-4 h3{
@@ -205,8 +260,8 @@ hr{
 .Body123 .Body-Image-3 img{
     border-radius: 7%;
     height: 150%;
-    width: 50%;
-    box-shadow: 5px 0 8px wheat;
+    width: 55%;
+    box-shadow: 5px 0 8px rgb(10, 10, 9);
 }
 
 .Body-Image-1, .Body-Image-2, .Body-Image-3{
@@ -221,7 +276,7 @@ hr{
     background-color: rgb(247, 243, 238);
     overflow: hidden;
     height: 150%;
-    width: 50%;
+    width: 55%;
     transform: scale(0);
     transition: .3s ease;
     opacity: 0.9;
@@ -242,6 +297,14 @@ hr{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 190px;
+  }
+  .Body-Image-1 h3, .Body-Image-2 h3, .Body-Image-3 h3{
+    text-align: center;
+    padding-top: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(2, 41, 8);
   }
 
   .image-one, .image-two, .image-three{
@@ -249,34 +312,8 @@ hr{
     height: auto;
   }
 
-  .bottom-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding-top: 2%;
-    padding-left: 15%;
-    padding-bottom: 2%;
-    background-color: rgb(247, 243, 238);
-  }
-
-  .bottom-1 h3, .bottom-2 h3, .bottom-3 h3{
-    background-color: rgb(2, 41, 8);
-    color: #9ef01a;
-    padding-left: 2%;
-    padding-right: 1%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
-}
-
-.bottom-1 p, .bottom-2 p, .bottom-3 p{
-    padding-top: 4%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
   footer{
-    background-color: rgb(2, 41, 8);
+    background-color: rgb(63, 61, 58);
     color: #9ef01a;
     padding-top: 2%;
     padding-bottom: 2%;
@@ -300,70 +337,3 @@ hr{
 footer p a:hover{
         color: #9ef01a;
     }
-
-
-.Body-Image-1 .youtube1, .Body-Image-2 .youtube2, .Body-Image-3 .youtube3{
-    padding-top: 3%;
-
-}
-
-.Body123 .youtube1 a{
-    left: 1%;
-    color: rgb(247, 243, 238);
-    position: absolute;
-    background-color: rgba(2, 37, 14, 0.5);
-    padding-top: 2%;
-    width: 45%;
-    text-align: center;
-    padding-bottom: 2%;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Body123 .youtube2 a{
-    left: 1%;
-    color: rgb(247, 243, 238);
-    position: absolute;
-    background-color: rgba(2, 37, 14, 0.5);
-    padding-top: 2%;
-    width: 45%;
-    padding-bottom: 2%;
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.Body123 .youtube1 a:hover{
-    background-color: rgb(2, 41, 8);
-}
-
-.Body123 .youtube2 a:hover{
-    background-color: rgb(2, 41, 8);
-}
-
-.Body123 .youtube3 a:hover{
-    background-color: rgb(2, 41, 8);
-}
-
-
-
-
-.Body123 .youtube3 a{
-    left: 1%;
-    color: rgb(247, 243, 238);
-    position: absolute;
-    background-color: rgba(2, 37, 14, 0.5);
-    padding-top: 2%;
-    width: 45%;
-    padding-bottom: 2%;
-    text-align: center;
-    padding-left: 2%;
-    padding-right: 2%;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
