@@ -1,0 +1,107 @@
+{
+    "id": "getBPSecurityPoliciesAndChangesImproved",
+    "endPoints": [{
+      "name": "getBPSecurityPoliciesAndChangesImproved",
+      "baseUrlType": "getBPSecurityPoliciesAndChangesImproved",
+      "authType": "sso",
+      "isCollection": false
+    }],
+    "presentation": {
+      "title": {
+        "type": "title",
+        "label": "BP Security Policies And Changes Improved V2"
+      },
+      "body": {
+        "type": "section",
+        "horizontal": false,
+        "children": [{
+          "type": "grid",
+          "id": "gridBPSecurityPoliciesAndChangesImproved",
+          "label": "BP Security Polices And Changes Improved",
+          "rows": "<% getBPSecurityPoliciesAndChangesImproved.data %>",
+          "autoPaging": true,
+          "rowVariableName": "row",
+          "columns": [{
+            "type": "column",
+            "columnId": "TransactionDateColumnId",
+            "label": "Transaction Date",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubTransactionDate",
+              "value": "<% row.TransactionDate %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "ByUserColumnId",
+            "label": "By user",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubByUser",
+              "value": "<% row.ByUser %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "TaskColumnId",
+            "label": "Task",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubTask",
+              "value": "<% row.Task %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "EventSecurityPolicyPermissionColumnId",
+            "label": "Event Security Policy Permission",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubEventSecurityPolicyPermission",
+              "value": "<% row.EventSecurityPolicyPermission %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "IntersectionSecurityGroupsColumnId",
+            "label": "Intersection Security Groups",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubIntersectionSecurityGroups",
+              "value": "<% row.IntersectionSecurityGroups %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "Role-BasedSecurityGroups(Constrained)ColumnId",
+            "label": "Role-Based Security Groups (Constrained)",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubRole-BasedSecurityGroups(Constrained)",
+              "value": "<% row['Role-BasedSecurityGroups(Constrained)'] %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "Self_Contingent_Worker_GroupColumnId",
+            "label": "Self_Contingent_Worker_Group",
+            "cellTemplate": {
+              "type": "text",
+              "id": "ubSelf_Contingent_Worker_Group",
+              "value": "<% row.Self_Contingent_Worker_Group %>"
+            }
+          }, {
+            "type": "column",
+            "columnId": "Allowed_ActionColumnId",
+            "label": "Allowed_Action",
+            "cellTemplate": {
+              "type": "text",
+                "id" : "ubAllowed_Action",
+                "value" : "<% row.Allowed_Action %>"
+              }}]
+          } ]
+        },
+        "footer" : {
+          "type" : "footer",
+          "children" : [ {
+            "type" : "richText",
+            "enabled" : "false",
+            "value" : "Powered By Workday Extend"
+          } ]
+        }
+      }
+    }

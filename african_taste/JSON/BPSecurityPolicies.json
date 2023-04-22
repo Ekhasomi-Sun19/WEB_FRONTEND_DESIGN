@@ -1,0 +1,72 @@
+{
+    "id" : "getBPChange",
+    "endPoints" : [ {
+      "name" : "getBPChange",
+      "baseUrlType" : "getBPChange",
+      "authType" : "sso",
+      "isCollection" : "false"
+    } ],
+    "presentation" : {
+      "title" : {
+        "type" : "title",
+        "label" : "User-Based Changes"
+      },
+      "body" : {
+        "type" : "section",
+        "horizontal" : false,
+        "children" : [ {
+          "type" : "grid",
+          "id" : "gridBPChanges",
+          "label" : "User Based Security Changes",
+          "rows" : "<% getBPChange.data %>",
+          "autoPaging" : true,
+          "rowVariableName" : "row",
+          "columns" : [ {
+            "type" : "column",
+            "columnId" : "RequestTimeColumnId",
+            "label" : "Request Time",
+            "cellTemplate" : {
+              "type" : "text",
+              "id" : "ubRequestTime",
+              "value" : "<% row.requestTime %>"
+            }
+          }, {
+            "type" : "column",
+            "columnId" : "SystemAccountColumnId",
+            "label" : "System Account",
+            "cellTemplate" : {
+              "type" : "text",
+              "id" : "ubSystemAccount",
+              "value" : "<% row.systemAccount %>"
+            }
+          }, {
+            "type" : "column",
+            "columnId" : "TaskDisplayNameColumnId",
+            "label" : "Task Display Name",
+            "cellTemplate" : {
+              "type" : "text",
+              "id" : "ubtaskDisplayName",
+              "value" : "<% row.taskDisplayName %>"
+            }
+          }, {
+            "type" : "column",
+            "columnId" : "TaskIdColumnId",
+            "label" : "Task ID",
+            "cellTemplate" : {
+              "type" : "text",
+              "id" : "ubTaskId",
+              "value" : "<% row.taskIdt %>"
+            }
+          } ]
+        } ]
+      },
+      "footer" : {
+        "type" : "footer",
+        "children" : [ {
+          "type" : "richText",
+          "enabled" : "false",
+          "value" : "Powered By Workday Extend"
+        } ]
+      }
+    }
+  }
