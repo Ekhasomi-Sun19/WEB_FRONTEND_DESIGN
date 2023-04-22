@@ -207,7 +207,7 @@ input[type="text"]{
 }
 
 footer{
-    background-color: rgb(29, 28, 28);
+    background-color: rgb(85, 84, 84);
     padding-left: 2%;
     
 }
@@ -279,5 +279,13 @@ footer p a:hover{
         color: #9ef01a;
     }
 
+
+/* This are styles for mobile view */
+@media screen and (max-width: 480px){
+    footer{
+        background-color: #9ef01a;
+    }
+
+}
 
 
